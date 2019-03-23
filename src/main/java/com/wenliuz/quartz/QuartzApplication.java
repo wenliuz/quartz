@@ -16,8 +16,8 @@ public class QuartzApplication {
     public static void main(String[] args) {
         //SpringApplication.run(QuartzApplication.class, args);
         //System.out.println("jjj");
-        List list = new ArrayList<>();
-        list.add("aa");
+        //List list = new ArrayList<>();
+        //list.add("aa");
         //定义job
         JobDetail job = JobBuilder.newJob(MyJob.class)
                 .withIdentity("job1","group1")
